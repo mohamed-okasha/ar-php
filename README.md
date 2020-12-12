@@ -1,16 +1,16 @@
 # Contribution to Ar-PHP Library, namespace-psr4 added
 
 ## Install
-Add the "johntaa/ar-php": "dev-master" into the require section of your composer.json.
+Add the "okasha/ar-php": "dev-master" into the require section of your composer.json.
 Run composer install.
 
 
 ## Usage
 
     <?php
-	use Johntaa\Arabic\I18N_Arabic;
+	use okasha\arabic\Arabic;
 	
-		$Arabic = new I18N_Arabic('Glyphs'); 
+		$Arabic = new Arabic('Glyphs'); 
 		
 		$text ="";
 			$text = $Arabic->utf8Glyphs($text); 
